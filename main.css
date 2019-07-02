@@ -1,0 +1,123 @@
+body{
+	background: #FF1493;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a, a:hover {
+	color: #FF1493;
+}
+
+h1,h5{
+	padding-top: 105px;
+	text-align: center;
+}
+h1{
+	font-size: 100px;
+	color: #39ff14;
+}
+h5{
+	padding-top: 0px;
+	font-size: 35px;
+	color: #39ff14;
+	
+}
+
+img{
+	padding: 25px;
+	height: 57%;
+	width: 38%;
+}
+header{
+	padding-bottom: 480px;
+	background: url('https://i.imgur.com/aEMd4Eo.jpg?1');
+	background-size: cover;
+}
+.title{
+	border: 5px solid #39ff14;
+	padding-bottom: 65px;
+	color: #39ff14;
+}
+button{
+	background: #39ff14;
+	border: none;
+	padding: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	display: flex;
+	justify-content: center;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+input, .btnn{
+	background-color: #39ff14;
+	border: 0px;
+	height: 55px;
+	width: 18%;
+	border-radius: 1px;
+	font-size: 150%;
+	color: #FF1493;
+}
+input:hover{
+	width: 20%;
+	height: 60px;
+}
+.btnn{
+	text-align: center;
+	width: 30%;
+}
+.contactMe{
+	padding-top:50px; 
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.aboutMe{
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 150px;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-flex;
+}	
+.portfolio{
+	text-align: center;
+
+}
+.chat{
+	padding-bottom: 15px;
+	color: #39ff14;
+}
+.about{
+padding-top: 4%;
+}
+i{
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 30px;
+	color: black;
+}
+.form{
+	margin-left: 40%;
+	font-size: 70%;
+}
+.subtitle{
+	border: 5px solid #39ff14;
+	padding-bottom: 5px;
+	color: #39ff14;
+	margin-right: 95px;
+	margin-left: 95px;
+}
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
