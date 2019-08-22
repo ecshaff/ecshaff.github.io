@@ -1,5 +1,5 @@
 body{
-	background: #FF1493;
+	background: white;
 }
 
 html {
@@ -7,7 +7,7 @@ html {
 }
 
 a, a:hover {
-	color: #FF1493;
+	color: red;
 }
 
 h1,h5{
@@ -16,32 +16,32 @@ h1,h5{
 }
 h1{
 	font-size: 100px;
-	color: #39ff14;
+	color: black;
 }
 h5{
 	padding-top: 0px;
 	font-size: 35px;
-	color: #39ff14;
+	color: red;
 	
 }
 
 img{
 	padding: 25px;
-	height: 57%;
-	width: 38%;
+	height: 37%;
+	width: 28%;
 }
 header{
 	padding-bottom: 480px;
-	background: url('https://i.imgur.com/aEMd4Eo.jpg?1');
+	
 	background-size: cover;
 }
 .title{
-	border: 5px solid #39ff14;
+	border: 5px solid red;
 	padding-bottom: 65px;
-	color: #39ff14;
+	color: black;
 }
 button{
-	background: #39ff14;
+	background: black;
 	border: none;
 	padding: 5px;
 	margin-top: 5px;
@@ -55,13 +55,13 @@ ul{
 	list-style: none;
 }
 input, .btnn{
-	background-color: #39ff14;
+	background-color: black;
 	border: 0px;
 	height: 55px;
 	width: 18%;
 	border-radius: 1px;
 	font-size: 150%;
-	color: #FF1493;
+	color: red;
 }
 input:hover{
 	width: 20%;
@@ -84,15 +84,16 @@ input:hover{
 	padding-left: 50px;
 	padding-bottom: 150px;
 	font-family: 'Montserrat', sans-serif;
-	display: inline-flex;
+	text-align: center;
+	/*display: inline-flex;*/
 }	
 .portfolio{
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 
 }
 .chat{
 	padding-bottom: 15px;
-	color: #39ff14;
 }
 .about{
 padding-top: 4%;
@@ -109,9 +110,9 @@ i{
 	font-size: 70%;
 }
 .subtitle{
-	border: 5px solid #39ff14;
+	border: 5px solid red;
 	padding-bottom: 5px;
-	color: #39ff14;
+	color: black;
 	margin-right: 95px;
 	margin-left: 95px;
 }
