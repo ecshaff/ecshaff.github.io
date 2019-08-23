@@ -21,6 +21,9 @@ h1,h5{
 	padding-top: 105px;
 	text-align: center;
 }
+h3, h4{
+	text-align: center;
+}
 h1{
 	font-size: 100px;
 	color: tan;
@@ -32,11 +35,7 @@ h5{
 	
 }
 
-img{
-	padding: 25px;
-	height: 57%;
-	width: 48%;
-}
+
 header{
 	padding-bottom: 480px;
 	
@@ -70,6 +69,7 @@ ul{
 .btnn{
 	text-align: center;
 	width: 30%;
+	display: block;
 }
 .contactMe{
 	padding-top:50px; 
@@ -78,20 +78,19 @@ ul{
 	font-family: 'Montserrat', sans-serif;
 
 }
-.aboutMe{
-	padding-top: 50px;
-	padding-right: 50px;
-	padding-left: 50px;
-	padding-bottom: 150px;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	
-}	
 .portfolio{
-	text-align: center;
+	
 	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10em;
 
 }
+.aboutMe{
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 25em;
+	margin-bottom: 20em;
+	
+}	
+
 .chat{
 	padding-bottom: 15px;
 }
@@ -103,30 +102,47 @@ i{
 	padding-right: 5px;
 	padding-left: 5px;
 	font-size: 30px;
-	color: black;
+	color: red;
 }
 .form{
 	margin-left: 40%;
 	font-size: 70%;
 }
-.subtitle{
-	padding-bottom: 5px;
-	color: black;
-	margin-right: 95px;
-	margin-left: 95px;
-}
+
 .submit{
 	display: initial;
 }
-p{
-	padding-left: 20px;
-	padding-right: 20px;
+p, h3{
+	background: rgba(255,255,255,.8);
+	
 }
 
 label, input, textarea{
 	display: block;
 }
+.contactForm, input, textarea, label{
+	display: block;
+	text-align: center;
+}
+.phorm{
+	display: inline-block;
+}
 
+img{
+	padding: 25px;
+	height: 57%;
+	width: 48%;
+	float: left;
+	
+
+}
+.contactForm{
+	margin-top: 20em;
+}
+
+.splt{
+	padding-top: 27em;
+}
 
 @media only screen and (max-width: 600px) {
   body {
