@@ -11,26 +11,28 @@
 	<title>Emmy Shaffer</title>
 </head>
 <body>
-
+<nav class="navbar sticky-top navbar-dark bg-dark">
+		<a class="navbar-brand" href="#zero">Home</a>
+		<a class="navbar-brand" href="#one">About Me</a>
+		<a class="navbar-brand" href="#two">Portfolio</a>
+		<a class="navbar-brand" href="#three">Contact</a>
+</nav>
 <header>
-	<div class="title">
+
+	<div class="title" id="zero">
  	<a href="index.html"><h1>Emmy Shaffer</h1></a>
 	<h5>Full-Stack Web Developer</h5>
-	<ul>
-		<li><button><a href="#one">About Me</a></li></button>
-		<li><button><a href="#two">Portfolio</a></li></button>
-		<li><button><a href="#three">Contact</a></li></button>
-	</ul>
+	
 </div>
 </header>
 <div class="aboutMe" id="one">
 	<h3 class="subtitle">About Me</h3>
-	<img src="https://i.imgur.com/vOG6Ziq.jpg?1">
+	<img src="https://i.imgur.com/citDsRa.jpg">
 	<p class="about">Hello, my name is Emmy Shaffer. I am a full-stack developer with a mind for programmatic problem solving and a passion for creativity. I am inspired by the arts and mathematics which I was exposed to at an early age. I take advantage of any given opportunity to develop, create, and learn. I am young, ambitious, and confident that I bring a unique and creative mind to the wonderful field of technology.</p>
 </div>
 <div class="portfolio" id="two">
 	<h3 class="subtitle">Portfolio</h3>
-	<img src="https://i.imgur.com/3QzIb0f.png">
+	<img src="https://i.imgur.com/iOpHOOV.png">
 	<h3>Express Shop</h3>
 	<p>This is a simple website template + store made intended for the use of artists so they are able to display their work/portfolios and sell their art all on the same site.
 
@@ -43,7 +45,7 @@
          <button class="btnn" type="submit">View Live Site</button>
      </form>
 </div>
-<img src="https://i.imgur.com/2CvpCdK.png?1">
+<img src="https://i.imgur.com/RD2ZFsj.png">
 	<h3>SplitIt</h3>
 	<p>A Single-Page CRUD Application designed to help roommates within a given house display the associated bills and mark if each user has/has not paid their portion. Upon splitting the project into three pieces: Users, House, and Bills. These three pieces would each have their own controller, model, HTML partial, and API with the House model pulling from the Users and the Bills model pulling from the House.
 
@@ -62,11 +64,32 @@
 	<form method="post" action="mailto:emmyshaff@gmail.com">
 		<input type="submit" value="Email Me!">
 	</form>
-	<a href="EmmaCarolineShafferResume 2.html"><i class="fas fa-file"></i></a>
+	<a href="Efile:///Users/emmyshaffer/Downloads/EmmaCarolineShafferResume%203.html"><i class="fas fa-file"></i></a>
 	<a href="https://github.com/ecshaff"><i class="fab fa-github"></i></a>
 	<a href="https://www.linkedin.com/in/emmacshaffer/"><i class="fab fa-linkedin"></i></a>
+
 </div>
 
+<div class="contactForm"></div>
+<h1>Contact Me</h1>
+<form action="https://formspree.io/emmyshaff@gmail.com" method="POST">
+	<label>
+		E-mail
+		<input type="email" name="email" class="email">
+	</label>
+	<label>
+		Subject
+		<input type="text" name="subject" class="subject">
+	</label>
+	<label>
+		Message
+		<textarea class="message"></textarea>
+	</label>
+	<div class="status">
+		
+	</div>
+	<button class="submit" type="submit">Send</button>
+</form>
 </body>
 </html>
 

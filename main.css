@@ -1,5 +1,12 @@
 body{
-	background: white;
+	background: url("https://i.imgur.com/p3eUiSI.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+textarea{
+	margin: 0px;
+	padding: 1px;
 }
 
 html {
@@ -16,19 +23,19 @@ h1,h5{
 }
 h1{
 	font-size: 100px;
-	color: black;
+	color: tan;
 }
 h5{
 	padding-top: 0px;
 	font-size: 35px;
-	color: red;
+	color: gray;
 	
 }
 
 img{
 	padding: 25px;
-	height: 37%;
-	width: 28%;
+	height: 57%;
+	width: 48%;
 }
 header{
 	padding-bottom: 480px;
@@ -36,12 +43,11 @@ header{
 	background-size: cover;
 }
 .title{
-	border: 5px solid red;
+	border: 5px solid tan;
 	padding-bottom: 65px;
 	color: black;
 }
 button{
-	background: black;
 	border: none;
 	padding: 5px;
 	margin-top: 5px;
@@ -54,19 +60,13 @@ ul{
 	justify-content: center;
 	list-style: none;
 }
-input, .btnn{
-	background-color: black;
-	border: 0px;
-	height: 55px;
-	width: 18%;
+.btnn{
+	background-color: white;
 	border-radius: 1px;
 	font-size: 150%;
-	color: red;
+	color: black;
 }
-input:hover{
-	width: 20%;
-	height: 60px;
-}
+
 .btnn{
 	text-align: center;
 	width: 30%;
@@ -110,15 +110,27 @@ i{
 	font-size: 70%;
 }
 .subtitle{
-	border: 5px solid red;
 	padding-bottom: 5px;
 	color: black;
 	margin-right: 95px;
 	margin-left: 95px;
+}
+.submit{
+	display: initial;
 }
 p{
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
+label, input, textarea{
+	display: block;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
