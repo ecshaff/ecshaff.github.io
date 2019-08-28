@@ -41,7 +41,7 @@ h5{
 
 
 header{
-	padding-bottom: 480px;
+	
 	
 	background-size: cover;
 }
@@ -85,13 +85,12 @@ ul{
 .portfolio{
 	
 	font-family: 'Montserrat', sans-serif;
-	margin-bottom: 10em;
+	margin-bottom: 50px;
 
 }
 .aboutMe{
 	font-family: 'Montserrat', sans-serif;
-	padding-bottom: 25em;
-	margin-bottom: 20em;
+	
 	
 }	
 
@@ -118,8 +117,10 @@ i{
 }
 
 p{
-	font-size: 20px;
+	font-size: 120%;
 	padding-right: 50px;
+	padding-left: 50px;
+	text-align: center;
 }
 
 label, input, textarea{
@@ -137,7 +138,8 @@ img{
 	padding: 25px;
 	height: 47%;
 	width: 38%;
-	float: left;
+	display: inline-flex;
+
 	padding-left: 30px;
 	
 
@@ -146,14 +148,4 @@ img{
 	margin-top: 10em;
 }
 
-.splt{
-	padding-top: 17em;
-	font-family: 'Montserrat', sans-serif;
-}
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
 

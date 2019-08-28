@@ -2,6 +2,8 @@ $(document).ready(function() {
   $('.submit').click(function(){
     
     const email = $('.email').val()
+    const subject = $('.name').val()
+    const name = $('.name').val()
     const message = $('.message').val()
     const statusElm = $('.status')
     statusElm.empty()
@@ -11,6 +13,12 @@ $(document).ready(function() {
       event.preventDefault()
       statusElm.append("<div>email is not valid</div>")
     }
+    if(name.length > 0) {
+    } else { 
+      event.preventDefault()
+      statusElm.append("<div>Name field must be filled</div>")
+    }
+
 
     if(subject.length > 0) {
     } else { 
