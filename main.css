@@ -1,126 +1,63 @@
+@media screen and (min-width: 500px) and (max-width:5000px) {
 body{
-	background: url("https://i.imgur.com/mWYpFFb.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	font-family: 'Corben', cursive;
+	font-size: 100%;
 }
 
-textarea{
-	margin: 0px;
-	padding: 1px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-a, a:hover {
-	color: red;
-}
-
-h1,h5{
-	padding-top: 105px;
-	text-align: center;
-}
-h3, h4{
-	text-align: center;
-}
-h4{
-	font-size: 40px;
-	padding-bottom: 20px;
-}
-h1{
-	font-size: 100px;
-	color: tan;
-}
-h5{
-	padding-top: 0px;
-	font-size: 35px;
-	color: gray;
-	
-}
-
-
-header{
-	
-	
+.body{
+	font-family: 'Corben', cursive;
+	background: url(https://i.imgur.com/sUmDn4G.jpg);
 	background-size: cover;
 }
+.homeBody{
+	background: url(https://i.imgur.com/2ntBjrq.jpg);
+	
+}
+
+a:hover{
+	color: #ffe700;
+	text-decoration: none;
+}
+
 .title{
-	border: 5px solid tan;
-	padding-bottom: 65px;
-	color: black;
-}
-button{
-	border: none;
-	padding: 5px;
-	margin-top: 5px;
-	margin-left: 5px;
-	display: flex;
-	justify-content: center;
-}
-ul{
-	display: flex;
-	justify-content: center;
-	list-style: none;
-}
-.btnn{
-	background-color: white;
-	border-radius: 1px;
-	font-size: 150%;
-	color: black;
-}
-
-.btnn{
-	text-align: center;
-	width: 30%;
-	display: block;
-}
-.contactMe{
-	padding-top:50px; 
-	padding-bottom: 50px;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+text-align: center;
+padding-top: 17%;
+padding-bottom: 20%;	
+font-size: 150%;
+color: pink;
 
 }
-.portfolio{
-	
-	font-family: 'Montserrat', sans-serif;
-	margin-bottom: 50px;
+.main_link:hover{
+padding: 7px;
+border: 5px solid black;
+}
+.main_link{
+text-decoration: none;
+color: #ffe700;
+font-size: 160%;
+}
 
-}
-.aboutMe{
-	font-family: 'Montserrat', sans-serif;
-	
-	
-}	
-
-.chat{
-	padding-bottom: 15px;
-}
-.about{
-padding-top: 4%;
-}
 i{
-	padding-top: 20px;
-	padding-right: 5px;
-	padding-left: 5px;
-	font-size: 30px;
-	color: red;
-}
-.form{
-	margin-left: 40%;
-	font-size: 70%;
+	font-size: 170%;
+	color: #ffc107;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
-.submit{
-	display: initial;
+a{
+	color: pink;
 }
+
+h5{
+	color: black;
+}
+
 
 p{
-	font-size: 120%;
-	padding-right: 50px;
-	padding-left: 50px;
-	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+
+
 }
 
 label, input, textarea{
@@ -134,18 +71,67 @@ label, input, textarea{
 	display: inline-block;
 }
 
-img{
-	padding: 25px;
-	height: 47%;
-	width: 38%;
-	display: inline-flex;
-
-	padding-left: 30px;
-	
-
-}
 .contactForm{
 	margin-top: 10em;
 }
 
+.name{
+	color: black;
+}
+.social{
+	text-align: center;
+	padding-top: 5%;
+}
+.navbar-brand:hover{
+	font-size: 130%;
+}
 
+
+.main{
+background: url(https://i.imgur.com/DuktQxm.jpg);
+background-size: cover;
+}
+.aboutMe, .splt, .portfolio {
+    padding: 110px 40px 70px 20px;
+    max-width: 100%;
+    display: flex;
+}
+    .me, .mePic {
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+        align-self: center;
+        border-radius: 500em;
+        border: 12px solid pink;
+    
+    }
+    .about {
+        flex: 1 1 auto;
+        font-size: 100%;
+        padding-left: 20px;
+        align-self: center;
+    }
+
+   .subtitle{
+	align-self: center;
+	padding-right: 10px;
+}
+.aboutMe{
+	background: rgba(255,189,37);
+}
+.subtitle{
+	text-align: center;
+	padding-top: 20px;
+}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+.mePic{
+	display: none;
+}
+
+a{
+	font-size: 300%
+}
+}
