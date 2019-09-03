@@ -82,7 +82,7 @@ p{
 
 label, input, textarea{
 	display: block;
-	color: pink;
+	color: black;
 }
 .contactForm, input, textarea, label{
 	display: block;
@@ -115,13 +115,20 @@ label, input, textarea{
 }
 button{
 	color: black;
-	background: #ffc107;
+	background: pink;
 }
 
 
 .main{
-background: url(https://i.imgur.com/S6gMiC4.jpg?1);
-background-size: cover;
+background: black;
+}
+.nameTitle{
+	color: pink;
+	font-size: 80px;
+}
+.subHeaderTitle{
+	color: #ffc107;
+	font-size: 30px;
 }
 .aboutMe, .splt, .portfolio {
     padding: 0px 40px 70px 20px;
@@ -200,9 +207,20 @@ footer{
 }
 
 @media screen and (min-width: 0px) and (max-width: 500px){
-.mePic{
-	display: none;
+img{
+	width: 145px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    border-radius: 500em;
+    border: 5px solid pink;
 
+}
+
+.about, .aboutMe{
+	padding-top: 20px;
+	font-size: 25px;
+	text-align: center;
 }
 .body{
 	font-family: 'Corben', cursive;
@@ -213,11 +231,14 @@ footer{
 	padding-bottom: 27em;
 }
 body{
+	font-family: 'Caveat', cursive;
 	
-	font-family: 'Corben', cursive;
+}
+p{
+	font-family: 'Zilla Slab', serif;
 }
 .aboutMe, .splt, .portfolio {
-    padding: 110px 40px 70px 20px;
+    padding: 30px 40px 70px 20px;
     max-width: 100%;
     display: inline-block;
 }
@@ -253,9 +274,99 @@ text-decoration: none;
 color: #ffe700;
 font-size: 160%;
 }
+label, input, textarea{
+	display: block;
+	color: black;
+}
+button{
+	background: pink;
+}
+input, textarea{
+	border: 1px solid black;
+}
+.contactForm, input, textarea, label{
+	display: block;
+	text-align: center;
 
-nav{
+}
+.phorm{
+	display: inline-block;
+}
+.chat{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
 
+.contactForm{
+	margin-top: 10em;
+}
+
+i{
+	font-size: 170%;
+	color: #ffc107;
+	padding-top: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 18px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-left: 35px;
+  background: black;
+  color: pink;
+  margin-top: -15px;
+}
+.copyright{
+	text-align: center;
+	background: pink;
+	margin-bottom: -10px;
+}
+
+
+.skillList {
+  flex: 10%;
+  padding: 0 4px;
+  padding-bottom: 40px;
+}
+.skl {
+  color: #ffc107
+
+}
+
+.skillSubtitle{
+	background: black;
+	color: #ffc107;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.subtitleMe, .subtitle{
+text-align: center;
+font-size: 35px;
+}
+.subtitleMe{
+	padding-top: 20px;
+}
+.social{
+	text-align: center;
+	
+}
+a{
+	color: pink;
+}
+.title{
+	background: black;
+}
+.subHeaderTitle{
+	width: 270px;
+	text-align: center;
+	margin: 0 auto;
+	color: #ffc107;
+}
+.nameTitle{
+	font-size: 44px;
 }
 
 }
