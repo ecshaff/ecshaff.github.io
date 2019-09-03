@@ -76,9 +76,7 @@ h5{
 
 
 p{
-	font-family: 'Roboto', sans-serif;
-
-
+	font-family: 'Zilla Slab', serif;
 
 }
 
@@ -89,9 +87,14 @@ label, input, textarea{
 .contactForm, input, textarea, label{
 	display: block;
 	text-align: center;
+
 }
 .phorm{
 	display: inline-block;
+}
+.chat{
+	font-size: 40px;
+	padding-bottom: 30px;
 }
 
 .contactForm{
@@ -105,6 +108,7 @@ label, input, textarea{
 .social{
 	text-align: center;
 	padding-top: 5%;
+	padding-bottom: 3%;
 }
 .navbar-brand:hover{
 	font-size: 130%;
@@ -135,7 +139,7 @@ background-size: cover;
     }
     .about {
         flex: 1 1 auto;
-        font-size: 100%;
+        font-size: 18px;
         padding-left: 20px;
         align-self: center;
     }
@@ -143,7 +147,14 @@ background-size: cover;
    .subtitle{
 	align-self: center;
 	padding-right: 10px;
+	padding-bottom: 60px;
+	padding-top: 90px;
+	text-align: center;
 
+}
+h3{
+	align-self: center;
+	padding-right: 30px;
 }
 .subtitle, .skillSubtitle, .subtitleI, .subtitleMe{
     font-size: 40px;
@@ -151,7 +162,7 @@ background-size: cover;
 .aboutMe, .subtitleMe{
 	background: white;
 }
-.subtitle, .skillSubtitle, .subtitleI{
+ .skillSubtitle, .subtitleI{
 	text-align: center;
 	padding-top: 20px;
 
@@ -169,6 +180,21 @@ background-size: cover;
 }
 .portfolio, .splt, .subtitleI{
 	background: white;
+}
+
+footer{
+  	background: rgba(255,190,203,.6);
+  	color: black;
+  	font-size: 14px;
+  	letter-spacing: .08em;
+  	font-weight: 800;
+
+  	
+}
+.copyright {
+  font-family: all;
+  text-align: center;
+  margin-bottom: -20px;
 }
 
 }
