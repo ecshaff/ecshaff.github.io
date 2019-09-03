@@ -13,6 +13,10 @@
 	font-family: 'Cedarville Cursive', cursive;
 
 }
+a{
+	text-align: center;
+	text-decoration: none;
+}
 .subtitle{
 	padding-top: 20px;
 	text-align: center;
