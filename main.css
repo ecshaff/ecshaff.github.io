@@ -368,5 +368,8 @@ a{
 .nameTitle{
 	font-size: 44px;
 }
+.navbar-brand{
+	font-size: 15px;
+}
 
 }
