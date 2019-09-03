@@ -1,7 +1,9 @@
  <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Corben:700&display=swap" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -16,26 +18,27 @@
 	<nav class="navbar sticky-top navbar-light bg-warning">
 	<a class="navbar-brand" href="#zero">Home</a>
 		<a class="navbar-brand" href="#one">About Me</a>
-		<a class="navbar-brand" href="#two">Portfolio</a>
+		<a class="navbar-brand" href="#two">Programming</a>
 		<a class="navbar-brand" href="#three">Contact</a>
+		<a class="navbar-brand" href="photo/photo.html">Photo Site</a>
 </nav>
 <header class="main">
 
 	<div class="title" id="zero">
-	<h1 class="name">Emmy Shaffer</h1>
+	<h1 class="nameTitle">Emmy Shaffer</h1>
 	<h5>Full-Stack Web Developer | Photographer | Designer</h5>
 	</div>
 </header>
-
-<div class="aboutMe" id="one">
-	<h4 class="subtitle">About Me</h4>
+<h4 class="subtitleMe" id="one">Who Am I? </h4>
+<div class="aboutMe">
+	
 	<img class="mePic" src="https://i.imgur.com/citDsRa.jpg?1">
 	<p class="about">Hello, my name is Emmy Shaffer. I am a full-stack developer, photographer, and designer. I have a mind for programmatic problem solving and a passion for creativity. I am inspired by the arts and mathematics which I was exposed to at an early age. I take advantage of any given opportunity to develop, create, and learn. I am young, ambitious, and confident that I bring a unique and creative mind to the wonderful field of technology and design.</p>
 </div>
 <h4 class="subtitle">Portfolio</h4>
 <div class="portfolio" id="two">
-	<img class="me" src="https://i.imgur.com/iOpHOOV.png">
 	<h3>Express Shop</h3>
+	<img class="me" src="https://i.imgur.com/iOpHOOV.png">
 	<p>This is a simple website template + store made intended for the use of artists so they are able to display their work/portfolios and sell their art all on the same site.
 
 	Technologies used: Express, jQuery, bcrypt, Express Generator, Express-Sessions, Express-Validator, Passport, Node.JS
@@ -43,12 +46,46 @@
     View on GitHub</a> or <a href="https://emmystemplate.herokuapp.com/">View Live Site</a>
 	</p></div>
 <div class="splt">
-<img class="me"src="https://i.imgur.com/RD2ZFsj.png">
+<a href="https://the-split-it.herokuapp.com/"><img class="me"src="https://i.imgur.com/RD2ZFsj.png"></a>
 	<h3>SplitIt</h3>
 	<p>A Single-Page CRUD Application designed to help roommates within a given house display the associated bills and mark if each user has/has not paid their portion. Upon splitting the project into three pieces: Users, House, and Bills. These three pieces would each have their own controller, model, HTML partial, and API with the House model pulling from the Users and the Bills model pulling from the House.
 
 	Technologies used: Node.JS, Mongoose, Express, Angular
 	<a href="https://github.com/ekahialoha/SplitIt">View on GitHub</a> or <a href="https://the-split-it.herokuapp.com/">View Live Site</a></p>
+</div>
+<h4 class="skillSubtitle">SKILLS</h4>
+<div class="skills">
+<div class="skillList">
+	<h5 class="skl">Front End</h5>
+	<p>JavaScript</p> 
+	<p>CSS</p>	
+	<p>HTML</p>
+	<p>jQuery</p>
+	<p>Ruby</p>
+	<p>React</p>
+	<p>AngularJS</p>
+</div>	
+<div class="skillList">
+	<h5 class="skl">Back End</h5>
+	<p>Rails</p>
+	<p>Node.js</p>
+</div>
+<div class="skillList">
+	<h5 class="skl">Database</h5> 
+	<p>MySQL</p>
+	<p>MongoDB</p> 
+	<p>Postgres</p>
+	<p>Express.js</p>
+</div>
+<div class="skillList">
+	<h5 class="skl">Other</h5>
+	<p>Git</p> 
+	<p>Bootstrap</p> 
+	<p>API Development</p> 
+	<p>Adobe Photoshop</p>
+	<p>Adobe Lightroom</p>
+	<p>Graphic Design</p> 
+</div>
 </div>
 <div class="contactMe" id="three">
 	<div class="contactForm">
